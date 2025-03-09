@@ -465,7 +465,7 @@ yarn run format
 安装包
 
 ```
-yarn add @commitlint/config-conventional @commitlint/cli -D
+npm i @commitlint/config-conventional @commitlint/cli -D
 ```
 
 添加配置文件，新建`commitlint.config.cjs`(注意是cjs)，然后添加下面的代码：
