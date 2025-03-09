@@ -1,11 +1,11 @@
 <script setup lang="ts">
-function test() {
-  console.log('test');
-}
+import { Edit } from '@element-plus/icons-vue';
 </script>
 
 <template>
-  <div>4444</div>
+  <div>
+    <el-button type="primary" :icon="Edit" circle />
+  </div>
 </template>
 
 <style scoped lang="scss">

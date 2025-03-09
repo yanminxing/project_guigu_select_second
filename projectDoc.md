@@ -579,7 +579,7 @@ if (!/npm/.test(process.env.npm_execpath || '')) {
 官网地址:https://element-plus.gitee.io/zh-CN/
 
 ```
-pnpm install element-plus @element-plus/icons-vue
+npm install element-plus @element-plus/icons-vue
 // 或者
 yarn add element-plus @element-plus/icons-vue
 ```
