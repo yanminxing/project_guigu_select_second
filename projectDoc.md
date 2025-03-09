@@ -544,7 +544,7 @@ pnpm commitlint
 
 当我们 commit 提交信息时，就不能再随意写了，必须是 git commit -m 'fix: xxx' 符合类型的才可以，**需要注意的是类型的后面需要用英文的 :，并且冒号后面是需要空一格的，这个是不能省略的**
 
-#### 六、强制使用yarn包管理器工具
+#### 六、强制使用npm包管理器工具
 
 团队开发项目的时候，需要统一包管理器工具,因为不同包管理器工具下载同一个依赖,可能版本不一样,
 
@@ -553,7 +553,7 @@ pnpm commitlint
 在根目录创建`scritps/preinstall.js`文件，添加下面的内容
 
 ```
-if (!/yarn/.test(process.env.npm_execpath || '')) {
+if (!/npm/.test(process.env.npm_execpath || '')) {
   console.warn(
     `\u001b[33mThis repository must using pnpm as the package manager ` +
     ` for scripts to work properly.\u001b[39m\n`,
