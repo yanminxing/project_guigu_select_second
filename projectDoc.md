@@ -331,7 +331,7 @@ npm i -D eslint-plugin-prettier prettier eslint-config-prettier
 我们的项目中使用scss作为预处理器，安装以下依赖：
 
 ```
-yarn add sass sass-loader stylelint postcss postcss-scss postcss-html stylelint-config-prettier stylelint-config-recess-order stylelint-config-recommended-scss stylelint-config-standard stylelint-config-standard-vue stylelint-scss stylelint-order stylelint-config-standard-scss -D
+npm i sass sass-loader stylelint postcss postcss-scss postcss-html stylelint-config-prettier stylelint-config-recess-order stylelint-config-recommended-scss stylelint-config-standard stylelint-config-standard-vue stylelint-scss stylelint-order stylelint-config-standard-scss -D
 ```
 
 #### 2.4.1`.stylelintrc.cjs`**配置文件**

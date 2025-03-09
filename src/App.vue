@@ -1,11 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
-    4444
-  </div>
+  <div>4444</div>
 </template>
 
-<style scoped>
-
+<style scoped lang="scss">
+h1 {
+  color: red;
+}
 </style>
