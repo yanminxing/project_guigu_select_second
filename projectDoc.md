@@ -621,7 +621,7 @@ yarn add  -D @types/node
 
 在开发项目的时候文件与文件关系可能很复杂，因此我们需要给src文件夹配置一个别名！！！
 
-在 tsconfig.json 文件中配置路径别名
+在 tsconfig.app.json 文件中配置路径别名
 
 ```
 {
