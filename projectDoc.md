@@ -289,7 +289,7 @@ package.json新增两个运行脚本
 1 依赖下载
 
 ```
-yarn add -D eslint-plugin-prettier prettier eslint-config-prettier
+npm i -D eslint-plugin-prettier prettier eslint-config-prettier
 ```
 
 1 .prettierrc.json添加规则
@@ -306,7 +306,7 @@ yarn add -D eslint-plugin-prettier prettier eslint-config-prettier
 }
 ```
 
-2 prettierignore忽略文件
+2 .prettierignore忽略文件
 
 ```
 /dist/*
@@ -318,7 +318,7 @@ yarn add -D eslint-plugin-prettier prettier eslint-config-prettier
 /public/*
 ```
 
-通过pnpm run lint去检测语法，如果出现不规范格式,通过pnpm run fix 修改
+通过npm run lint去检测语法，如果出现不规范格式,通过npm run fix 修改
 
 3 当eslint和prettier冲突的时候
 
