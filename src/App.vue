@@ -1,6 +1,6 @@
 <script setup lang="ts">
 function test() {
-  console.log("test"  );
+  console.log('test');
 }
 </script>
 
@@ -9,11 +9,7 @@ function test() {
 </template>
 
 <style scoped lang="scss">
-h1{
+h1 {
   color: red;
-
-  
-
-
 }
 </style>
